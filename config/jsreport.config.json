@@ -1,4 +1,10 @@
 {
+  "store": {
+    "provider": "fs",
+    "fs": {
+      "dataDirectory": "data"
+  }
+  },
   "extensions": {
     "studio": {
       "enabled": true,

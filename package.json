@@ -6,6 +6,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "jsreport": "^3.13.0"
+    "jsreport": "^4.9.0"
   }
 }
