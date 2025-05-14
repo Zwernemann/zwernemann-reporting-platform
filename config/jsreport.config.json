@@ -1,0 +1,12 @@
+{
+  "extensions": {
+    "studio": {
+      "enabled": true,
+      "scripts": false,
+      "data": false,
+      "assets": true,
+      "settings": false,
+      "templates": true
+    }
+  }
+}
