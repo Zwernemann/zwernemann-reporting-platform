@@ -2,10 +2,10 @@
   "extensions": {
     "studio": {
       "enabled": true,
-      "scripts": false,
-      "data": false,
+      "scripts": true,
+      "data": true,
       "assets": true,
-      "settings": false,
+      "settings": true,
       "templates": true
     }
   }
