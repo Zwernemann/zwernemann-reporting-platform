@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zwernemann-reporting-platform
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: JSREPORT_ALLOW_LOCAL_FILES_ACCESS
+        value: "true"
