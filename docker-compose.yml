@@ -1,0 +1,11 @@
+version: "3"
+services:
+  jsreport:
+    image: jsreport/jsreport:3
+    ports:
+      - "5488:5488"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - extensions_studio_enabled=true
+      - extensions_authentication_enabled=false
