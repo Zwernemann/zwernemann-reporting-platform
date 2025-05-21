@@ -1,5 +1,6 @@
 {
   "httpPort": 3000,
+  "trustUserCode": true,
   "store": {
     "provider": "fs",
     "fs": {
