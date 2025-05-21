@@ -1,13 +1,41 @@
 {
+  "httpPort": 3000,
   "store": {
     "provider": "fs",
     "fs": {
       "dataDirectory": "data"
-  }
+    }
+  },
+  "themeVarsDefinition": {
+    "titleFont": "Arial",
+    "headerColor": "#007bff",
+    "logoImage": "path/to/logo.png"
   },
   "extensions": {
+
+    "studio-ai": {
+      "enabled": false
+    },
+    "authentication" : {
+      "cookieSession":  {
+          "secret":  "dasd321as56d1sd5s61vdv32"
+      },
+      "admin" : {
+        "username":"admin",
+        "password":"password"
+      }
+    },
     "studio": {
       "enabled": true,
+      "theme": {
+        "name": "light",
+        "logo": {
+          "path": "static/logo/MZWLogo2.png"
+        },
+        "customCss" : {
+            "path": "static/styles/custom.css"
+        }
+      },
       "scripts": true,
       "data": true,
       "assets": true,

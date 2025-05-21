@@ -1,0 +1,4 @@
+/* Logo oben links entfernen */
+.Toolbar-logo-blocked {
+  display: none !important;
+}
