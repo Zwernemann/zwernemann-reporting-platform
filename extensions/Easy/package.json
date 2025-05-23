@@ -1,0 +1,24 @@
+{
+  "name": "zwernemann-reporting-extension",
+  "version": "1.0.0",
+   "scripts": {
+    "build": "jsreport-studio-build",
+    "prepublish": "jsreport-studio-build",
+    "run": "npm run build && jsreport-studio-start --httpPort 5488 --run-only",
+    "start": "jsreport-studio-start --httpPort 5488"
+  },
+  "files": [
+    "lib",
+    "studio",
+    "index.js",
+    "jsreport.config.js"
+  ],
+  "dependencies": {
+    "@jsreport/jsreport-core": "^4.7.0",
+    "@jsreport/jsreport-express": "^4.2.0"
+  },
+  "devDependencies": {
+    "@jsreport/jsreport-express": "4.2.0",
+    "@jsreport/studio-dev": "4.0.1"
+  }
+}

@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "build": "",
+    "prepublish": "",
     "postinstall": "npx puppeteer browsers install chrome",
     "start": "node server.js"
   },
   "dependencies": {
-    "jsreport": "^4.9.0"
+    "jsreport": "^4.9.0",
+    "@google/generative-ai" : "^0.24.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@jsreport/jsreport-core": "4.7.0",
+    "@jsreport/jsreport-express": "4.2.0",
+    "@jsreport/studio-dev": "4.0.1"
   }
+  
 }

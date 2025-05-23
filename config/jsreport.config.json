@@ -14,8 +14,11 @@
   },
   "extensions": {
 
-    "studio-ai": {
-      "enabled": false
+    "mzw_kireport": {
+      "enabled": true
+    },
+    "mzw_easy": {
+      "enabled": true
     },
     "authentication" : {
       "cookieSession":  {

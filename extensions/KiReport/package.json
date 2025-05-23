@@ -1,0 +1,22 @@
+{
+  "name": "zwernemann-reporting-extension",
+  "version": "1.0.0",
+   "scripts": {
+    "build": "jsreport-studio-build",
+    "prepublish": "jsreport-studio-build",
+    "run": "npm run build && jsreport-studio-start --httpPort 5488 --run-only",
+    "start": "jsreport-studio-start --httpPort 5488"
+  },
+
+  "dependencies": {
+    "@jsreport/jsreport-core": "^4.7.0",
+    "@jsreport/jsreport-express": "^4.2.0",
+    "@google/generative-ai" : "^0.24.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@jsreport/jsreport-express": "4.2.0",
+    "@jsreport/studio-dev": "4.0.1",
+    "@google/generative-ai" : "^0.24.1"
+  }
+}
